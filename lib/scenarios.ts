@@ -123,10 +123,10 @@ export const scenarioTemplates: Record<string, any> = {
         "buyerRegistrationType": "Unregistered",
         "items": [
             {
-                "hsCode": "7202.1100",
+                "hsCode": "7204.4910",
                 "productDescription": "Test",
                 "rate": "18%",
-                "uoM": "KG",
+                "uoM": "MT",
                 "quantity": 1,
                 "totalValues": 0,
                 "valueSalesExcludingST": 175000,
