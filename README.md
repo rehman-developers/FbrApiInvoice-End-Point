@@ -1,9 +1,9 @@
 # FBR Digital Invoice API (Pakistan)
 
 **Live API URL:**  
-https://fbrbpiinvoice.vercel.app/api/fbr/send-invoice
+https://fbr-api-invoice-end-point.vercel.app/api/send-invoice
 
-A super-fast, production-ready **FBR (Federal Board of Revenue) Digital Invoicing API** built with **Next.js 15 + TypeScript** using the official FBR Sandbox & Production environment.
+A super-fast, production-ready **FBR (Federal Board of Revenue) Digital Invoicing API** built with **Next.js 16 + TypeScript** using the official FBR Sandbox & Production environment.
 
 This API accepts full invoice data from **Postman, frontend apps, or any system** and returns **real-time FBR invoice number** with `statusCode: "00"` (Valid).
 
@@ -14,14 +14,13 @@ This API accepts full invoice data from **Postman, frontend apps, or any system*
 - Clean FBR response — **no wrapper, no extra fields**
 - Supports both **Sandbox** and **Production** via `.env`
 - Auto-retry & timeout handling
-- Deployed in 60 seconds on Vercel (free forever)
 
 ---
 
 ### Live Endpoint (Working Right Now)
 
 ```http
-POST https://fbrbpiinvoice.vercel.app/api/fbr/send-invoice
+POST https://fbr-api-invoice-end-point.vercel.app/api/send-invoice
 Content-Type: application/json
 ```
 Example Request (Postman)
